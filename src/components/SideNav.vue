@@ -2,7 +2,7 @@
   <nav class="w-fit h-screen p-4 drop-shadow-xl bg-white">
     <ul>
       <li
-        class="flex items-center gap-2 my-2 px-3 py-1 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
+        class="flex items-center gap-2 my-4 px-3 py-2 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
       >
         <div class="w-6">
           <svg
@@ -19,7 +19,7 @@
         <div>Dashboard</div>
       </li>
       <li
-        class="flex items-center gap-2 my-2 px-3 py-1 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
+        class="flex items-center gap-2 my-4 px-3 py-2 rounded-md bg-red-100 font-semibold cursor-pointer"
       >
         <div class="w-6">
           <svg
@@ -29,17 +29,17 @@
           >
             <path
               d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z"
-              stroke="#000000"
+              stroke="#cc0000"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
           </svg>
         </div>
-        <div>Users</div>
+        <div class="text-red-500">Users</div>
       </li>
       <li
-        class="flex items-center gap-2 my-2 px-3 py-1 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
+        class="flex items-center gap-2 my-4 px-3 py-2 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
       >
         <div class="w-6">
           <svg
@@ -70,7 +70,7 @@
         <div>Publications</div>
       </li>
       <li
-        class="flex items-center gap-2 my-2 px-3 py-1 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
+        class="flex items-center gap-2 my-4 px-3 py-2 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
       >
         <div class="w-6">
           <svg
@@ -90,7 +90,7 @@
         <div>Tags</div>
       </li>
       <li
-        class="flex items-center gap-2 my-2 px-3 py-1 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
+        class="flex items-center gap-2 my-4 px-3 py-2 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
       >
         <div class="w-6">
           <svg
@@ -107,7 +107,7 @@
       </li>
       <div class="w-full border-b"></div>
       <li
-        class="flex items-center gap-2 my-2 px-3 py-1 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
+        class="flex items-center gap-2 my-4 px-3 py-2 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
       >
         <div class="w-6">
           <svg
@@ -127,7 +127,7 @@
         <div>My Profile</div>
       </li>
       <li
-        class="flex items-center gap-2 my-2 px-3 py-1 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
+        class="flex items-center gap-2 my-4 px-3 py-2 rounded-md hover:bg-gray-100 font-semibold cursor-pointer"
       >
         <div class="w-6">
           <svg

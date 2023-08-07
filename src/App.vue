@@ -2,6 +2,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import NavBar from "./components/NavBar.vue";
 import SideNav from "./components/SideNav.vue";
+import UserDetailsPage from "./views/UserDetailsPage.vue";
 import Users from "./views/Users.vue";
 </script>
 
@@ -10,7 +11,11 @@ import Users from "./views/Users.vue";
     <NavBar />
     <div class="flex">
       <SideNav />
-      <Users class="flex-1" />
+      <div class="flex-1">
+        <router-view />
+      </div>
+      <!-- <Users class="flex-1" /> -->
+      <!-- <UserDetailsPage class="flex-1" /> -->
     </div>
   </div>
 </template>
